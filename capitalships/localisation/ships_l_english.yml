@@ -1,0 +1,18 @@
+﻿l_english:
+ 
+ tech_spaceport_7:0 "Capitalships"
+ tech_spaceport_7_desc:0 "Expanded dry-docks allow for the construction of Capitalship-class military vessels."
+ feature_spaceport_level_7:0 "Spaceport Level VII"
+ feature_spaceport_level_7_desc:0 "The Spaceport can be upgraded to support §Y7§! modules and allow the construction of capitalships."
+ 
+ spaceport_level_7:0 ""
+
+ tech_capitalship_yard:0 "Standardized Capitalship Patterns"
+ tech_capitalship_yard_desc:1 "Establishing new standards for assembly machines of massive scale to construct capitalships greatly improves the speed at which they can be assembled.\n\n"
+
+ TECH_UNLOCK_BATTLESHIP_CONSTRUCTION_DESC:0 "§HBattleship§!\nThe first hull configuration on massive scale, the Battleship can truly function as a weapon platform at a high price."
+ TECH_UNLOCK_CAPITALSHIP_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Capitalship"
+ TECH_UNLOCK_CAPITALSHIP_CONSTRUCTION_DESC:0 "§HCapitalship§!\nThe largest hull configuration available, the Capitalship carries unmatched power into battle at even greater cost and reduced maneuverability."
+ 
+ feature_spaceport_level_7:0 "Spaceport Level VII"
+ feature_spaceport_level_7_desc:0 "The Spaceport can be upgraded to support §Y7§! modules and allow the construction of capitalships."

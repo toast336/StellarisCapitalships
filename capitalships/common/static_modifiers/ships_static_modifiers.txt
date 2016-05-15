@@ -1,0 +1,5 @@
+spaceport_level_7 = {
+	ship_hitpoints_add = 6500
+	ship_armor_add = 40
+	ship_weapon_damage = 1.25
+}
