@@ -1,0 +1,20 @@
+capitalship_assembly_yards = {
+	icon = "GFX_spaceport_module_capitalship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_capitalship_yard" }
+	spaceport_level = 7
+	
+	cost = {
+		minerals = 1000
+	}	
+	
+	required_resources = {
+		energy = 8
+	}
+	
+	modifier = {
+		shipsize_capitalship_construction_speed_mult = 0.25
+		shipsize_capitalship_build_cost_mult = -0.10
+	}
+}

@@ -1,0 +1,20 @@
+spaceport_level_7 = {
+	ship_hitpoints_add = 6500
+	ship_armor_add = 40
+	ship_weapon_damage = 1.25
+}
+spaceport_level_8 = {
+	ship_hitpoints_add = 7500
+	ship_armor_add = 45
+	ship_weapon_damage = 1.5
+}
+spaceport_level_9 = {
+	ship_hitpoints_add = 8500
+	ship_armor_add = 50
+	ship_weapon_damage = 1.75
+}
+spaceport_level_10 = {
+	ship_hitpoints_add = 9500
+	ship_armor_add = 55
+	ship_weapon_damage = 2
+}

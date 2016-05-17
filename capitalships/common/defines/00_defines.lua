@@ -579,7 +579,7 @@ NDefines = {
 
 		SPACEPORT_CONSTRUCTION_TIME				= 360,	-- Amount of days it takes to construct a spaceport.
 		SPACEPORT_CONSTRUCTION_HEALTH			= 0.1,	-- How much HP, in %, that the spaceport starts with.
-		SPACEPORT_LEVELS 						= 7,	-- Number of spaceport levels
+		SPACEPORT_LEVELS 						= 10,	-- Number of spaceport levels
 		SPACEPORT_UPGRADE_TIME					= 180,	--	Time to upgrade a spaceport to the next level
 
 		--SHIP_COST_RESOURCE = "minerals", -- resource to pay ships with
@@ -857,7 +857,7 @@ NDefines = {
 		FLEET_UPGRADE_MINERAL_COST_BASE		= 5.0,		-- mineral cost of ship upgrade is base + abs( price difference between old and new designs * FLEET_UPGRADE_MINERAL_COST_MULT )
 		FLEET_UPGRADE_MINERAL_COST_MULT		= 0.75,		
 		OBSERVATION_STATION_MAINTENANCE		= 1.0,		-- Monthly observation station maintenance
-		SPACEPORT_UPGRADE_COSTS				= { 300.0, 450.0, 600.0, 850.0, 1000.0, 1500.0 }, -- Mineral costs for upgrading the spaceport
+		SPACEPORT_UPGRADE_COSTS				= { 300.0, 450.0, 600.0, 850.0, 1000.0, 1500.0, 3000.0, 6000.0, 12000.0 }, -- Mineral costs for upgrading the spaceport
 		SEVERE_DEFICIT_VALUE				= 0.8,		-- Balance/Income smaller than this value counts as severe
 		OUTPOST_STATION_MINERAL_COST		= 100,		-- Mineral cost to build outpost
 		OUTPOST_STATION_INFLUENCE_COST		= 200,		-- Influence cost to build outpost

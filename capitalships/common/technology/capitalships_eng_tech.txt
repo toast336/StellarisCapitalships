@@ -1,0 +1,100 @@
+@tier3cost4 = 3880
+
+@tier3weight4 = 35
+
+tech_spaceport_7 = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	category = { voidcraft }	
+	prerequisites = { "tech_spaceport_6" }
+	weight = @tier3weight4
+		
+	## unlock capitals	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_CAPITALSHIP_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_CAPITALSHIP_CONSTRUCTION_DESC"
+		}
+	}
+	
+	modifier = {
+		max_minerals = 4000
+	}
+	
+	feature_flags = { spaceport_level_7 }
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 75 }
+		}	
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_spaceport_7
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 80
+		}
+		modifier = {
+			factor = 3
+			years_passed > 85
+		}
+		modifier = {
+			factor = 4
+			years_passed > 90
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #higher factor due to capital hull
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_capitalship_yard = {
+	cost = @tier3cost4
+	area = engineering
+	tier = 4
+	category = { voidcraft }	
+	prerequisites = { "tech_spaceport_7" }
+	weight = @tier3weight4
+		
+	## unlock capital assembly yard
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
